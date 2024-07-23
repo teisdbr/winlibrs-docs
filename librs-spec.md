@@ -3947,24 +3947,26 @@ ___
 
 ### Requirements:
 
-___
+---
 
-Requirement  | Requirement Description | Error Number | Error Message
-:-----------:|-------------------------|:------------:|----------
-{% assign error = site.data.error["10001"] -%}
-1 | {{error.err_desc["37"]}} | {{error.err_no}}| {{ error.err_message }} 
-{% assign error = site.data.error["14008"] -%}
-2 | {{error.err_desc["37"]}} | {{error.err_no}}| {{ error.err_message }}
-{% assign error = site.data.error["14009"] -%}
-3 | {{error.err_desc["37"]}} | {{error.err_no}}| {{ error.err_message }}
-{% assign error = site.data.error["14022"] -%}
-4 | {{error.err_desc["37"]}} | {{error.err_no}}| {{ error.err_message }}
-{% assign error = site.data.error["14052"] -%}
-5 | {{error.err_desc["37"]}} | {{error.err_no}}| {{ error.err_message }}
-{% assign error = site.data.error["90045"] -%}
-5 | {{error.err_desc["37"]}} | {{error.err_no}}| {{ error.err_message }}
+|                  Requirement                  | Requirement Description  |   Error Number   | Error Message           |
+| :--------------------------------------------: | ------------------------ | :--------------: | ----------------------- |
+| {% assign error = site.data.error["10001"] -%} |                          |                  |                         |
+|                       1                       | {{error.err_desc["37"]}} | {{error.err_no}} | {{ error.err_message }} |
+| {% assign error = site.data.error["14008"] -%} |                          |                  |                         |
+|                       2                       | {{error.err_desc["37"]}} | {{error.err_no}} | {{ error.err_message }} |
+| {% assign error = site.data.error["14009"] -%} |                          |                  |                         |
+|                       3                       | {{error.err_desc["37"]}} | {{error.err_no}} | {{ error.err_message }} |
+| {% assign error = site.data.error["14022"] -%} |                          |                  |                         |
+|                       4                       | {{error.err_desc["37"]}} | {{error.err_no}} | {{ error.err_message }} |
+| {% assign error = site.data.error["14052"] -%} |                          |                  |                         |
+|                       5                       | {{error.err_desc["37"]}} | {{error.err_no}} | {{ error.err_message }} |
+| {% assign error = site.data.error["90045"] -%} |                          |                  |                         |
+|                       5                       | {{error.err_desc["37"]}} | {{error.err_no}} | {{ error.err_message }} |
+| {% assign error = site.data.error["22100"] -%} |                          |                  |                         |
+|                       6                       | {{error.err_desc["37"]}} | {{error.err_no}} | {{ error.err_message }} |
 
-___
+---
 
 ### Details:
 * Age of the Offender (37) is entered either as an exact number of years, an estimated age or as unknown.
