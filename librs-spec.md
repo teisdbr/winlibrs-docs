@@ -1616,7 +1616,7 @@ ____
     <tr><td>
 			{% for subsection in de.subsection %}
 				<table class="subtable">
-				{% if subsection.title != "" %}<th colspan="3">{{subsection.title}}</th> {% endif %}
+				{% if subsection.title != "" %}<th colspan="3">{{subsection.title}}</th>{% endif %}
 					{% for values in subsection.values %}
 					<tr>
             			<td style="vertical-align: top; text-align: right; padding-left:0px; padding-right:0px; white-space: nowrap; min-width: 25px">{{values.code}}</td>
@@ -1625,7 +1625,7 @@ ____
             		</tr>
 					{% endfor %}
 				</table>
-			{% if forloop.last == false %}<br>{% endif %}
+				{% if forloop.last == false %}<br/>{% endif %}
         	{% endfor %}
 		</td></tr>
     {% endif %}
