@@ -680,11 +680,11 @@
 				},
 				{
 					"code": "20",
-					"desc": "Knife or Cutting Instrument"
+					"desc": "Knife or Cutting Instrument (knives, razors, hatchets, axes, cleavers, scissors, glass, broken bottles, ice picks, etc.)"
 				},
 				{
 					"code": "30",
-					"desc": "Blunt Object"
+					"desc": "Blunt Object (baseball bats, butt of handgun, clubs, bricks, jack handles, tire irons, bottles, etc.)"
 				},
 				{
 					"code": "35",
@@ -692,7 +692,7 @@
 				},
 				{
 					"code": "40",
-					"desc": "Personal Weapons"
+					"desc": "Personal Weapons (hands, fist, feet, arms, teeth, etc.)"
 				},
 				{
 					"code": "50",
@@ -716,7 +716,7 @@
 				},
 				{
 					"code": "90",
-					"desc": "Other"
+					"desc": "Other (BB guns, pellet guns, tasers, pepper spray, stun guns, deadly/ dangerous/communicable diseases, etc.)"
 				},
 				{
 					"code": "95",
