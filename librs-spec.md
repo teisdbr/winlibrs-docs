@@ -413,8 +413,11 @@ None
 <div class="newpage"></div>
 
 ## Property/Offense (33)
+Description
+Segment 33, Property/Offense Relationship, is used to distinctly relate a Property to an Offense. 
 
----
+If this segment is not included, LIBRS will perform a Cross Product between all Properties and all Offenses which could lead to false rejections. We have measures in place to help limit incorrect Properties from being associated with Invalid Offenses (EG: Drugs being associated with Motor Vehicle Theft Offenses), however the only way to ensure that Properties are being appropriately linked up to their Offenses is by including a Segment 33 for each Property/Offense Relationship.
+We get a lot of questions about this Segment, and have included more information about it in the FAQ, which can be found [here](./faq#properties-segments-30-31-32-and-33).
 
 ### Description
 
